@@ -1,16 +1,63 @@
-# React + Vite
+# React Vite Weather App 🌤️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive weather application built with **React**, **Vite**, and **Tailwind CSS**. This app fetches weather data from the [Open-Meteo API](https://open-meteo.com/) and provides suggestions for outdoor activities and clothing based on current weather conditions.  
 
-Currently, two official plugins are available:
+![Weather App Screenshot](https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1470&q=80)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Search weather by city name
+- Displays:
+  - Current temperature
+  - Wind speed
+  - Weather description & icon
+- Dynamic suggestions for outdoor activities
+- Clothing recommendations based on temperature and weather
+- Responsive UI with Tailwind CSS
+- Background image and card styling for modern look
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Demo
+
+Try the live version deployed on **Vercel**:  
+[Your Vercel URL here]()
+
+---
+
+## Installation
+
+### Prerequisites
+
+- Node.js >= 16.x
+- npm >= 8.x
+
+### Clone the repository
+
+```bash
+git clone https://github.com/your-username/your-repo.git
+cd your-repo
+
+Usage:
+1.Enter a city name in the input field.
+2.Click Check to fetch the current weather.
+3.The app displays:City & country
+4.Weather icon & description
+5.Temperature & wind speed
+6.Suggested activities and clothing tips
+
+Technologies Used:
+*React
+*Vite
+*Tailwind CSS
+*Axios
+* Open-Meteo API
+
+src/
+ ├─ App.jsx          # Main component
+ ├─ index.css        # Tailwind CSS styles
+ ├─ main.jsx         # Entry point
+public/
+ ├─ index.html       # HTML template
